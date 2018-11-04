@@ -7,7 +7,7 @@ namespace ConsoleApp1
         public void one()
         {
             
-            Console.WriteLine("Задание 1:\n.");
+            Console.WriteLine(2"Задание :\n.");
             Console.WriteLine("Вся память {0}",TotalMemory() / 1024);
             Console.WriteLine(" {0}", BusyMemory()/1024);
             Console.WriteLine("Занятая память память {0}", (TotalMemory()- BusyMemory())/1024);
